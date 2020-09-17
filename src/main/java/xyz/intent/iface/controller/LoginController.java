@@ -1,4 +1,4 @@
-package xyz.intent.iface;
+package xyz.intent.iface.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
@@ -13,7 +13,7 @@ import java.io.IOException;
 /**
  * @author intent
  */
-public class Controller {
+public class LoginController {
     public Button btn2;
     private ImageClient imageClient;
 

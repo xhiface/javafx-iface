@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="xyz.intent.iface.controller.LoginController">
+    <children>
+        <Button fx:id="btn1" layoutX="333.0" layoutY="210.0" mnemonicParsing="false" onMouseClicked="#onButtonClick" text="登录" />
+        <Button fx:id="btn2" layoutX="136.0" layoutY="210.0" mnemonicParsing="false" onMouseClicked="#onButton2Click" text="发送" />
+        <Label layoutX="136.0" layoutY="104.0" text="用户名：" />
+        <Label layoutX="136.0" layoutY="162.0" text="密 码：" />
+        <TextField layoutX="212.0" layoutY="100.0" />
+        <PasswordField layoutX="212.0" layoutY="158.0" />
+    </children>
+</Pane>
